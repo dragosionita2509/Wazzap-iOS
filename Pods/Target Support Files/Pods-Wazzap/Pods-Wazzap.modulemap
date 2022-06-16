@@ -1,0 +1,6 @@
+framework module Pods_Wazzap {
+  umbrella header "Pods-Wazzap-umbrella.h"
+
+  export *
+  module * { export * }
+}
