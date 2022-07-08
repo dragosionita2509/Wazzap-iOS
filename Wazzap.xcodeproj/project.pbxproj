@@ -15,16 +15,19 @@
 		0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818C235DF00B00E35CAF /* RegisterViewController.swift */; };
 		0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B62818E235DF01000E35CAF /* LoginViewController.swift */; };
 		0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628190235DF01B00E35CAF /* ChatViewController.swift */; };
-		1C9547AA9915F598557C0B14 /* Pods_Wazzap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0ABED9569B1987427CE76B2 /* Pods_Wazzap.framework */; };
 		271606B62825421100940481 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 271606B52825421100940481 /* GoogleService-Info.plist */; };
 		271606B8282550A000940481 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271606B7282550A000940481 /* Constants.swift */; };
 		271606BA2825560B00940481 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271606B92825560B00940481 /* Message.swift */; };
 		271606BD28255B5600940481 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271606BB28255B5600940481 /* MessageCell.swift */; };
 		271606BE28255B5600940481 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 271606BC28255B5600940481 /* MessageCell.xib */; };
 		2748A23828245E4600D4087E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B62817F235DEE8400E35CAF /* Assets.xcassets */; };
+		4BAC5223F91B13A20A8CC01A /* Pods_Wazzap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A120D665BFBFE5CDD2CA5A7E /* Pods_Wazzap.framework */; };
+		7B50B28F2868D65400044690 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B50B28D2868D65300044690 /* ImageTableViewCell.swift */; };
+		7B50B2902868D65400044690 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B50B28E2868D65300044690 /* ImageTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02B7C7B7F3525E6AD652D833 /* Pods-Wazzap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wazzap.release.xcconfig"; path = "Target Support Files/Pods-Wazzap/Pods-Wazzap.release.xcconfig"; sourceTree = "<group>"; };
 		0B628173235DEE8100E35CAF /* Wazzap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wazzap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B628176235DEE8100E35CAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0B628178235DEE8100E35CAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -36,14 +39,15 @@
 		0B62818C235DF00B00E35CAF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		0B62818E235DF01000E35CAF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0B628190235DF01B00E35CAF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		0EAC85D672F5F85A13E5477D /* Pods-Wazzap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wazzap.release.xcconfig"; path = "Target Support Files/Pods-Wazzap/Pods-Wazzap.release.xcconfig"; sourceTree = "<group>"; };
 		271606B52825421100940481 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		271606B7282550A000940481 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		271606B92825560B00940481 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Wazzap/Message.swift; sourceTree = SOURCE_ROOT; };
 		271606BB28255B5600940481 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		271606BC28255B5600940481 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
-		5BA9AF798A1D046F8F9D33A7 /* Pods-Wazzap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wazzap.debug.xcconfig"; path = "Target Support Files/Pods-Wazzap/Pods-Wazzap.debug.xcconfig"; sourceTree = "<group>"; };
-		C0ABED9569B1987427CE76B2 /* Pods_Wazzap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wazzap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B50B28D2868D65300044690 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		7B50B28E2868D65300044690 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		A120D665BFBFE5CDD2CA5A7E /* Pods_Wazzap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wazzap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD224273F9B8F0FF28AD5D51 /* Pods-Wazzap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wazzap.debug.xcconfig"; path = "Target Support Files/Pods-Wazzap/Pods-Wazzap.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C9547AA9915F598557C0B14 /* Pods_Wazzap.framework in Frameworks */,
+				4BAC5223F91B13A20A8CC01A /* Pods_Wazzap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,7 +68,7 @@
 				0B628175235DEE8100E35CAF /* Wazzap */,
 				0B628174235DEE8100E35CAF /* Products */,
 				626DF606C4B14044B1E86AA0 /* Pods */,
-				4B51109B6737CED4D82080BD /* Frameworks */,
+				8B83CDEB7854D51D529F22B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +114,8 @@
 				0B62817C235DEE8100E35CAF /* Main.storyboard */,
 				271606BB28255B5600940481 /* MessageCell.swift */,
 				271606BC28255B5600940481 /* MessageCell.xib */,
+				7B50B28D2868D65300044690 /* ImageTableViewCell.swift */,
+				7B50B28E2868D65300044690 /* ImageTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -122,21 +128,21 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		4B51109B6737CED4D82080BD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0ABED9569B1987427CE76B2 /* Pods_Wazzap.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		626DF606C4B14044B1E86AA0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5BA9AF798A1D046F8F9D33A7 /* Pods-Wazzap.debug.xcconfig */,
-				0EAC85D672F5F85A13E5477D /* Pods-Wazzap.release.xcconfig */,
+				CD224273F9B8F0FF28AD5D51 /* Pods-Wazzap.debug.xcconfig */,
+				02B7C7B7F3525E6AD652D833 /* Pods-Wazzap.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B83CDEB7854D51D529F22B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A120D665BFBFE5CDD2CA5A7E /* Pods_Wazzap.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,11 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B628187235DEE8400E35CAF /* Build configuration list for PBXNativeTarget "Wazzap" */;
 			buildPhases = (
-				2CD36A2984EEE9D4EBDECC48 /* [CP] Check Pods Manifest.lock */,
+				B1F1F4713861A80CCAA85639 /* [CP] Check Pods Manifest.lock */,
 				0B62816F235DEE8100E35CAF /* Sources */,
 				0B628170235DEE8100E35CAF /* Frameworks */,
 				0B628171235DEE8100E35CAF /* Resources */,
-				16874E9A12E89CDA1FB788BB /* [CP] Embed Pods Frameworks */,
+				294953871D09A31DE5DE2271 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,6 +208,7 @@
 				271606BE28255B5600940481 /* MessageCell.xib in Resources */,
 				0B628183235DEE8400E35CAF /* LaunchScreen.storyboard in Resources */,
 				271606B62825421100940481 /* GoogleService-Info.plist in Resources */,
+				7B50B2902868D65400044690 /* ImageTableViewCell.xib in Resources */,
 				2748A23828245E4600D4087E /* Assets.xcassets in Resources */,
 				0B62817E235DEE8100E35CAF /* Main.storyboard in Resources */,
 			);
@@ -210,7 +217,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		16874E9A12E89CDA1FB788BB /* [CP] Embed Pods Frameworks */ = {
+		294953871D09A31DE5DE2271 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -227,7 +234,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wazzap/Pods-Wazzap-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2CD36A2984EEE9D4EBDECC48 /* [CP] Check Pods Manifest.lock */ = {
+		B1F1F4713861A80CCAA85639 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,6 +270,7 @@
 				271606B8282550A000940481 /* Constants.swift in Sources */,
 				271606BA2825560B00940481 /* Message.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
+				7B50B28F2868D65400044690 /* ImageTableViewCell.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
 				271606BD28255B5600940481 /* MessageCell.swift in Sources */,
 			);
@@ -406,7 +414,7 @@
 		};
 		0B628188235DEE8400E35CAF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BA9AF798A1D046F8F9D33A7 /* Pods-Wazzap.debug.xcconfig */;
+			baseConfigurationReference = CD224273F9B8F0FF28AD5D51 /* Pods-Wazzap.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -427,7 +435,7 @@
 		};
 		0B628189235DEE8400E35CAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EAC85D672F5F85A13E5477D /* Pods-Wazzap.release.xcconfig */;
+			baseConfigurationReference = 02B7C7B7F3525E6AD652D833 /* Pods-Wazzap.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Apple Development";

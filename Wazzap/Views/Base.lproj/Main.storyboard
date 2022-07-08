@@ -286,8 +286,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xlo-0G-XA6">
                                 <rect key="frame" x="0.0" y="802" width="414" height="60"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pym-e9-R2r">
-                                        <rect key="frame" x="353" y="7" width="48" height="47"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pym-e9-R2r">
+                                        <rect key="frame" x="354" y="10" width="40" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="juP-5r-jAV"/>
                                             <constraint firstAttribute="width" constant="40" id="r0I-1T-oMW"/>
@@ -298,8 +298,8 @@
                                             <action selector="sendPressed:" destination="lwd-AH-u8E" eventType="touchUpInside" id="GuM-yU-UjQ"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write a message..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UWj-GQ-Vph">
-                                        <rect key="frame" x="61" y="12" width="292" height="40"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Write a message..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UWj-GQ-Vph">
+                                        <rect key="frame" x="70" y="10" width="264" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="POz-11-5A0"/>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="kRh-Ng-wGX"/>
@@ -308,13 +308,28 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gma-fW-o74">
+                                        <rect key="frame" x="10" y="10" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="CCb-d5-vff"/>
+                                            <constraint firstAttribute="width" constant="40" id="w2G-tA-O46"/>
+                                        </constraints>
+                                        <color key="tintColor" name="BrandLightPurple"/>
+                                        <state key="normal" image="camera.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="addImageAction:" destination="lwd-AH-u8E" eventType="touchUpInside" id="o1U-0M-F91"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" name="BrandPurple"/>
                                 <constraints>
-                                    <constraint firstItem="pym-e9-R2r" firstAttribute="top" secondItem="xlo-0G-XA6" secondAttribute="top" constant="20" id="27T-Dx-HYk"/>
-                                    <constraint firstItem="UWj-GQ-Vph" firstAttribute="top" secondItem="xlo-0G-XA6" secondAttribute="top" constant="20" id="FKs-Vm-x9G"/>
-                                    <constraint firstItem="UWj-GQ-Vph" firstAttribute="leading" secondItem="xlo-0G-XA6" secondAttribute="leading" constant="20" id="SmO-dP-jGc"/>
+                                    <constraint firstItem="UWj-GQ-Vph" firstAttribute="leading" secondItem="Gma-fW-o74" secondAttribute="trailing" constant="20" id="49R-Hm-Xog"/>
+                                    <constraint firstItem="pym-e9-R2r" firstAttribute="centerY" secondItem="xlo-0G-XA6" secondAttribute="centerY" id="4F2-9R-Fxu"/>
+                                    <constraint firstItem="Gma-fW-o74" firstAttribute="centerY" secondItem="xlo-0G-XA6" secondAttribute="centerY" id="Imd-8T-PI2"/>
+                                    <constraint firstItem="Gma-fW-o74" firstAttribute="leading" secondItem="xlo-0G-XA6" secondAttribute="leading" constant="10" id="QSZ-xR-6w1"/>
+                                    <constraint firstItem="UWj-GQ-Vph" firstAttribute="centerY" secondItem="xlo-0G-XA6" secondAttribute="centerY" id="YBD-5t-9CQ"/>
                                     <constraint firstAttribute="height" constant="60" id="cV2-4S-DU8"/>
+                                    <constraint firstAttribute="trailing" secondItem="pym-e9-R2r" secondAttribute="trailing" constant="20" id="nmp-0O-D98"/>
                                     <constraint firstItem="pym-e9-R2r" firstAttribute="leading" secondItem="UWj-GQ-Vph" secondAttribute="trailing" constant="20" id="xZQ-Wv-YxR"/>
                                     <constraint firstAttribute="trailing" secondItem="pym-e9-R2r" secondAttribute="trailing" constant="20" id="ycp-Iy-yM8"/>
                                 </constraints>
@@ -381,6 +396,7 @@
     </inferredMetricsTieBreakers>
     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
     <resources>
+        <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>
         <image name="textfield" width="298" height="93"/>
         <namedColor name="BrandBlue">
